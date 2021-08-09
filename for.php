@@ -12,4 +12,4 @@ function ArrayNumbers($count)
     return $mass;
 }
 
-print_r(ArrayNumbers(readline("Enter your number: ")));
+print_r(ArrayNumbers(readline("Enter your number:")));
