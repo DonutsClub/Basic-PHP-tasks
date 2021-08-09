@@ -2,7 +2,7 @@
 
 $test_array = array(1,2);
 
-$number = readline("Write your number here: ");
+$number = readline("Write your number here:");
 
 while (count($test_array) != $number)
 {
