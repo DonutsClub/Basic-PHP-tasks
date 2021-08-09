@@ -1,6 +1,6 @@
 <?php
 
-$string = "Hello world!";
+$string = "Hello_world!";
 
 $string = strrev($string);
 
