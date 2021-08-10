@@ -21,4 +21,4 @@ function isReverse($string)
     }
 }
 
-echo (isReverse("Yo, banana boy!"));
+echo (isReverse("Madam, in Eden, I’m Adam."));
