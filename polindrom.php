@@ -3,6 +3,10 @@
 function isReverse($string)
 {
     $check = strrev($string);
+    $check = str_replace(" ", "", $check);
+    $string = str_replace(" ", "", $string);
+    $check = strtolower($check);
+    $string = strtolower($string);
     if ($string == $check)
     {
         return "Yes";
@@ -13,4 +17,4 @@ function isReverse($string)
     }
 }
 
-echo (isReverse("hello"));
+echo (isReverse("Race car"));
