@@ -17,4 +17,4 @@ function isReverse($string)
     }
 }
 
-echo (isReverse("A nut for a jar of tuna."));
+echo (isReverse("A nut fora jar of tuna."));
